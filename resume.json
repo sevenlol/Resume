@@ -1,0 +1,141 @@
+{
+    "basics" : {
+        "name" : "Stephen Ian-Tse Lin",
+        "label" : "Backend Developer",
+        "email" : "sevenlol1007@gmail.com",
+        "website" : "https://sevenloldev.com",
+        "phone" : "+886 910535163",
+        "location" : {
+            "city" : "Hsinchu",
+            "region" : "Taiwan"
+        },
+        "profiles" : [
+            {
+                "network" : "Github: sevenlol",
+                "url" : "https://github.com/sevenlol",
+                "username" : "sevenlol"
+            },
+            {
+                "network" : "LinkedIn: stephen-lin",
+                "url" : "https://www.linkedin.com/in/stephen-lin-b211aa109/",
+                "username" : "stephen-lin-b211aa109"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "name": "Programming Language",
+            "details" : [
+                {
+                    "text" : "Java",
+                    "comment" : "Competent"
+                },
+                {
+                    "text" : "Javascript",
+                    "comment" : "Good"
+                }
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "level": "Competent",
+            "keywords": [
+                "Redis",
+                "MySQL",
+                "Elasticsearch",
+                "Hibernate",
+                "Spring",
+                "Docker",
+                "ExpressJS",
+                "Kafka",
+                "MQTT",
+                "Jenkins",
+                "Zabbix"
+            ]
+        },
+        {
+            "name": "Platform",
+            "level": "Competent",
+            "keywords": [
+                "AWS(EC2,S3,RDS,SQS,SES,Lambda,ELB)",
+                "Alexa Skills Kit",
+                "IBM Softlayer",
+                "Firebase"
+            ]
+        },
+        {
+            "name": "Web Development",
+            "level": "Decent",
+            "keywords": [
+                "Angular",
+                "AngularJS"
+            ]
+        }
+    ],
+    "work": [
+        {
+            "company" : "Gemtek Technology",
+            "description" : "Gemtek is the world-leading provider of Wireless Broadband solutions, offering a wide range of solutions from residential to business.",
+            "position" : "Software Engineer",
+            "location" : "Hsinchu, Taiwan",
+            "startDate" : "2014-12-11",
+            "endDate" : "2017-10-25",
+            "highlights" : [
+                "Lead two engineers to migrate the company's IoT cloud services from AWS to IBM Softlayer.",
+                "Develope various Alexa skills for company products. A smart home skill was submitted and passed the certification process.",
+                "Implement an OAuth2 authorization server and integrate it with existing services.",
+                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface.",
+                "Implement a dashboard that visualize various business metrics with maps and charts.",
+                "Maintain a legacy notification system and extend its functionality to support firebase cloud messaging (FCM) and scheduled notifications."
+            ]
+        }
+    ],
+    "education" : [
+        {
+            "area" : "Communication Engineering",
+            "institution" : "National Taiwan University",
+            "studyType" : "Master",
+            "startDate" : "2012-09-01",
+            "endDate" : "2014-08-31"
+        },
+        {
+            "area" : "Electrical and Computer Engineering",
+            "institution" : "National Chiao Tung University",
+            "studyType" : "Bachelor",
+            "startDate" : "2008-09-01",
+            "endDate" : "2012-06-30"
+        }
+    ],
+    "projects" : [
+        {
+            "name" : "Portfolio",
+            "description" : "A website that contains information about me and my personal projects",
+            "highlights" : [
+                "Built from scratch using Angular, AngularMaterial and Firebase",
+                "Responsive material design layout for both mobile and desktop",
+                "Include documentations and unit tests for the entire website",
+                "Automated linting, testing, building and deploying the website using CircleCI",
+                "Use service worker for caching and contain an application shell. Has a decent lighthouse score (performance 80, SEO 88, other three categories 100)"
+            ],
+            "keywords" : [
+                "Angular",
+                "Firebase",
+                "Firestore",
+                "Material2",
+                "CircleCI",
+                "RxJS"
+            ],
+            "startDate" : "2017-12-09",
+            "endDate" : "2018-01-11",
+            "url" : "https://sevenloldev.com",
+            "doc" : {
+                "name" : "Documentation",
+                "url" : "https://sevenlol.github.io/PortfolioDoc/"
+            },
+            "github" : {
+                "name" : "Github Repo",
+                "url" : "https://github.com/sevenlol/Portfolio"
+            }
+        }
+    ]
+}
