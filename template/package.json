@@ -1,0 +1,55 @@
+{
+  "_from": "jsonresume-theme-onepage-ds",
+  "_id": "jsonresume-theme-onepage-ds@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ib8emKfNrBaY1l0o6jLkB07d6IwJRAZG3aGzEawX9/Rg/pM5Gf+/8xig/mhWh/hQuYJOfJbMYZ2Kbtfmn3iSbA==",
+  "_location": "/jsonresume-theme-onepage-ds",
+  "_phantomChildren": {
+    "amdefine": "1.0.1",
+    "minimist": "0.0.10",
+    "uglify-to-browserify": "1.0.2",
+    "wordwrap": "0.0.3",
+    "yargs": "3.10.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jsonresume-theme-onepage-ds",
+    "name": "jsonresume-theme-onepage-ds",
+    "escapedName": "jsonresume-theme-onepage-ds",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jsonresume-theme-onepage-ds/-/jsonresume-theme-onepage-ds-0.0.1.tgz",
+  "_shasum": "a4e41be2329472a498757cb86fb7de9da1e8d356",
+  "_spec": "jsonresume-theme-onepage-ds",
+  "_where": "/Users/sevenlol/Documents/Programming/Projects/Resume",
+  "author": {
+    "name": "Ainsley Chong, Divyendu Singh"
+  },
+  "bugs": {
+    "url": "https://github.com/divyenduz/jsonresume-theme-onepage-ds/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "css": "2.2.x",
+    "handlebars": "^4.0.11"
+  },
+  "deprecated": false,
+  "description": "Compact, printable theme for JSON Resume",
+  "devDependencies": {},
+  "homepage": "https://github.com/divyenduz/jsonresume-theme-onepage-ds",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "jsonresume-theme-onepage-ds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyenduz/jsonresume-theme-onepage-ds.git"
+  },
+  "version": "0.0.1"
+}
