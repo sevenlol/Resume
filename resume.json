@@ -1,7 +1,6 @@
 {
     "basics" : {
         "name" : "Stephen Ian-Tse Lin",
-        "label" : "Backend Developer",
         "email" : "sevenlol1007@gmail.com",
         "website" : "https://sevenloldev.com",
         "phone" : "+886 910535163",
@@ -11,12 +10,12 @@
         },
         "profiles" : [
             {
-                "network" : "Github: sevenlol",
+                "network" : "github.com/sevenlol",
                 "url" : "https://github.com/sevenlol",
                 "username" : "sevenlol"
             },
             {
-                "network" : "LinkedIn: stephen-lin",
+                "network" : "linkedin.com/in/stephen-lin-b211aa109/",
                 "url" : "https://www.linkedin.com/in/stephen-lin-b211aa109/",
                 "username" : "stephen-lin-b211aa109"
             }
@@ -24,48 +23,50 @@
     },
     "skills": [
         {
-            "name": "Programming Language",
+            "name": "Languages",
             "details" : [
                 {
                     "text" : "Java",
-                    "comment" : "Competent"
+                    "comment" : "Primary"
                 },
                 {
-                    "text" : "Javascript",
-                    "comment" : "Good"
+                    "text" : "Javascript"
+                },
+                {
+                    "text" : "Golang"
+                },
+                {
+                    "text" : "C"
                 }
             ]
         },
         {
-            "name": "Backend Development",
-            "level": "Competent",
+            "name": "Backend",
             "keywords": [
                 "Redis",
                 "MySQL",
                 "Elasticsearch",
-                "Hibernate",
                 "Spring",
+                "Hibernate",
                 "Docker",
                 "ExpressJS",
                 "Kafka",
                 "MQTT",
-                "Jenkins",
-                "Zabbix"
+                "Jenkins"
             ]
         },
         {
             "name": "Platform",
-            "level": "Competent",
             "keywords": [
                 "AWS(EC2,S3,RDS,SQS,SES,Lambda,ELB)",
                 "Alexa Skills Kit",
                 "IBM Softlayer",
-                "Firebase"
+                "Firebase",
+                "CircleCI"
             ]
         },
         {
-            "name": "Web Development",
-            "level": "Decent",
+            "name": "Web",
             "keywords": [
                 "Angular",
                 "AngularJS"
@@ -81,12 +82,12 @@
             "startDate" : "2014-12-11",
             "endDate" : "2017-10-25",
             "highlights" : [
-                "Lead two engineers to migrate the company's IoT cloud services from AWS to IBM Softlayer.",
-                "Develope various Alexa skills for company products. A smart home skill was submitted and passed the certification process.",
-                "Implement an OAuth2 authorization server and integrate it with existing services.",
-                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface.",
-                "Implement a dashboard that visualize various business metrics with maps and charts.",
-                "Maintain a legacy notification system and extend its functionality to support firebase cloud messaging (FCM) and scheduled notifications."
+                "Lead two engineers to migrate the company's IoT cloud services from AWS to IBM Softlayer",
+                "Develope various Alexa skills for company products. One smart home skill was submitted and passed the certification process",
+                "Implement an OAuth2 authorization server and integrate it with existing services",
+                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface",
+                "Implement a dashboard that visualize various business metrics with maps and charts",
+                "Maintain a legacy notification system and extend its functionality to support firebase cloud messaging (FCM) and scheduled notifications"
             ]
         }
     ],
@@ -111,8 +112,7 @@
             "name" : "Portfolio",
             "description" : "A website that contains information about me and my personal projects",
             "highlights" : [
-                "Built from scratch using Angular, AngularMaterial and Firebase",
-                "Responsive material design layout for both mobile and desktop",
+                "Built from scratch using Angular, AngularMaterial and Firebase, with a responsive layout",
                 "Include documentations and unit tests for the entire website",
                 "Automated linting, testing, building and deploying the website using CircleCI",
                 "Use service worker for caching and contain an application shell. Has a decent lighthouse score (performance 80, SEO 88, other three categories 100)"
@@ -136,6 +136,26 @@
                 "name" : "Github Repo",
                 "url" : "https://github.com/sevenlol/Portfolio"
             }
+        },
+        {
+            "name" : "JiYeWebCrawler",
+            "startDate" : "2017-09",
+            "endDate" : "2017-10",
+            "highlights" : [
+                "Crawl and aggregate room reservation information of JiYe guest house from multiple online booking websites",
+                "Backend is built on Google App Engine (Java). Schdule and store crawling jobs using Task Queue, Datastore.",
+                "Built a website to display the results with Firebase (Hosting, Authentication, Realtime Database)"
+            ]
+        },
+        {
+            "name" : "UserDeviceService",
+            "startDate" : "2018-02",
+            "endDate" : "2018-03",
+            "highlights" : [
+                "Single microservice to manage users and devices in a home automation system",
+                "Built with Spring framework, Hibernate, Memcached and MySQL. Deployed using Kubernetes"
+            ],
+            "url" : "https://github.com/sevenlol/UserDeviceService"
         }
     ]
 }
