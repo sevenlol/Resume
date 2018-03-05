@@ -294,7 +294,9 @@
 	        {{/if}}
 	      </div>
 	      <div>
+          {{#if url}}
           <span><a href='{{url}}'>{{url}}</a></span>
+          {{/if}}
           {{#if github}}
           <span class="divider">|</span><a href='{{github.url}}'>{{github.name}}</a>
           {{/if}}
