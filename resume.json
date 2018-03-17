@@ -27,7 +27,7 @@
             "details" : [
                 {
                     "text" : "Java",
-                    "comment" : "Primary"
+                    "comment" : "Proficient"
                 },
                 {
                     "text" : "Javascript"
@@ -84,8 +84,8 @@
             "highlights" : [
                 "Lead two engineers to migrate the company's IoT cloud services from AWS to IBM Softlayer",
                 "Develope various Alexa skills for company products. One smart home skill was submitted and passed the certification process",
-                "Implement an OAuth2 authorization server and integrate it with existing services",
-                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface",
+                "Implement an OAuth2 authorization server and a website for login and authorization. Integrate it with existing account services",
+                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface. Additional features include notification, verification and backup history",
                 "Implement a dashboard that visualize various business metrics with maps and charts",
                 "Maintain a legacy notification system and extend its functionality to support firebase cloud messaging (FCM) and scheduled notifications"
             ]
@@ -138,12 +138,12 @@
             }
         },
         {
-            "name" : "JiYeWebCrawler",
+            "name" : "JiYeWebScraper",
             "startDate" : "2017-09",
             "endDate" : "2017-10",
             "highlights" : [
-                "Crawl and aggregate room reservation information of JiYe guest house from multiple online booking websites",
-                "Backend is built on Google App Engine (Java). Schdule and store crawling jobs using Task Queue, Datastore.",
+                "Scrap and aggregate room reservation information of JiYe guest house from multiple online booking websites",
+                "Backend is built on Google App Engine (Java). Schdule and store scraping jobs using Task Queue, Datastore",
                 "Built a website to display the results with Firebase (Hosting, Authentication, Realtime Database)"
             ]
         },
@@ -153,7 +153,7 @@
             "endDate" : "2018-03",
             "highlights" : [
                 "Single microservice to manage users and devices in a home automation system",
-                "Built with Spring framework, Hibernate, Memcached and MySQL. Deployed using Kubernetes"
+                "Built with Spring framework, Hibernate, Nginx, Memcached and MySQL. Deployed using either Docker Compose or Kubernetes. Documented with Swagger"
             ],
             "url" : "https://github.com/sevenlol/UserDeviceService"
         }
