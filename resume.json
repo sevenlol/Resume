@@ -138,6 +138,16 @@
             }
         },
         {
+            "name" : "UserDeviceService",
+            "startDate" : "2018-02",
+            "endDate" : "2018-04",
+            "highlights" : [
+                "Single microservice to manage users and devices in a home automation system",
+                "Built with Spring framework, Hibernate, Nginx, Memcached and MySQL. Deployed using either Docker Compose or Kubernetes. Documented with Swagger"
+            ],
+            "url" : "https://github.com/sevenlol/UserDeviceService"
+        },
+        {
             "name" : "JiYeWebScraper",
             "startDate" : "2017-09",
             "endDate" : "2017-10",
@@ -146,16 +156,6 @@
                 "Backend is built on Google App Engine (Java). Schdule and store scraping jobs using Task Queue, Datastore",
                 "Built a website to display the results with Firebase (Hosting, Authentication, Realtime Database)"
             ]
-        },
-        {
-            "name" : "UserDeviceService",
-            "startDate" : "2018-02",
-            "endDate" : "2018-03",
-            "highlights" : [
-                "Single microservice to manage users and devices in a home automation system",
-                "Built with Spring framework, Hibernate, Nginx, Memcached and MySQL. Deployed using either Docker Compose or Kubernetes. Documented with Swagger"
-            ],
-            "url" : "https://github.com/sevenlol/UserDeviceService"
         }
     ]
 }

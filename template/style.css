@@ -157,6 +157,10 @@ a {
     -webkit-box-shadow: none;
   }
 
+  .sectionContent .date {
+    padding-right: 1em;
+  }
+
   a {
     color: black;
   }
