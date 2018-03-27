@@ -83,11 +83,11 @@
             "endDate" : "2017-10-25",
             "highlights" : [
                 "Lead two engineers to migrate the company's IoT cloud services from AWS to IBM Softlayer",
+                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface. Additional features include notification, verification and backup history",
                 "Develope various Alexa skills for company products. One smart home skill was submitted and passed the certification process",
                 "Implement an OAuth2 authorization server and a website for login and authorization. Integrate it with existing account services",
-                "Design and implement a backup system for the company's core databases. The system supports both on-demand and scheduled backup and restore, managed with APIs or a web interface. Additional features include notification, verification and backup history",
-                "Implement a dashboard that visualize various business metrics with maps and charts",
-                "Maintain a legacy notification system and extend its functionality to support firebase cloud messaging (FCM) and scheduled notifications"
+                "Implement an internal analytic platform for IP camera products. The system includes an ETL pipeline to aggregate event data and an administration dashboard to visualize both real-time and historical data with maps, charts and tables",
+                "Replace in-memory components of a legacy notification system with a database-backed implementation and extend the system's functionality to support firebase cloud messaging (FCM) and scheduled notifications"
             ]
         }
     ],
